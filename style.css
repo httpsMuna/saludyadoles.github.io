@@ -1,0 +1,213 @@
+@font-face{
+	font-family:Interphases;
+	src:url("fonts/TT Interphases Pro Trial Bold.ttf");
+}
+@font-face{
+	font-family:Stem-Regular;
+	src:url("fonts/Stem-Regular.otf");
+}
+@font-face{
+	font-family:Stem-Light;
+	src:url("fonts/Stem-Light.otf");
+}
+@font-face{
+	font-family:Nexa-Light;
+	src:url("fonts/Nexa-ExtraLight.ttf");
+}
+@font-face{
+	font-family:Nexa-Bold;
+	src:url("fonts/Nexa-Heavy.ttf");
+}
+footer{
+    background-color: #ebebeb;
+    display: flex;
+    width:100%;
+    height:auto;
+    justify-content:space-between;
+}
+footer img{
+    height: 75px;
+    margin-bottom:-4px;
+}
+.indexcenter{
+    display: flex;
+    width:100%;
+    height: 100%;
+    color:white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    font-family: nexa-bold;
+    padding:50px;
+    font-size:25px;
+}
+.box a:hover{
+    font-size:30px;
+    transition:font-size 1s;
+}
+.box a{
+    color:black;
+    text-decoration: none;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    padding:10px;
+    text-align: center;
+
+}
+.indexcenter img{
+    height:auto;
+    width:auto;
+}
+.logo{
+	margin-top:20px;
+    margin-right:20px;
+    position:absolute;
+    right:0;
+}
+body{
+	margin:0;
+    
+    width:100%;
+    height:100%;
+    
+}
+header{
+	display:flex;
+	height:auto;
+    justify-content: space-between;
+}
+.center{
+    display:flex;
+
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.container{
+    width:100%;
+    height:100%;
+    background-image:url(imgs/background.png);
+    background-color:#4C2882;
+}
+.sagrado{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display:flex;
+    position: absolute;
+    width:100%;
+    right:0;
+}
+.menu img{
+    height:150px;
+}
+nav{
+    width:50%;
+    display:flex;
+    background-color:#009500;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family:nexa-bold;
+    font-size:3vh;
+    justify-content: space-around;
+    height:110px;
+    position: absolute;
+    border:solid;
+    border-width:3px;
+    border-left:none;
+}
+nav a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.nombrefooter{
+    display: flex;
+    flex-direction: column;
+    font-family: nexa-bold;
+    line-height: 0%;
+    text-align: center;
+}
+.nombrefooter h4{
+    margin-top:5px
+}
+main{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+main h1{
+    font-family: nexa-bold;
+}
+main h2{
+    font-family: nexa-bold;
+}
+main h3{
+    font-family: nexa-bold;
+}
+main p{
+    font-family:stem-light;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: justify;
+}
+.maincenter{
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    background-color:white;
+    padding-top:210px;
+    line-height: 20px;
+}
+.maincenter h1, h2, h3{
+    align-items: center;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+}
+b{
+    font-size:20px;
+}
+ul{
+    font-family:stem-light;
+}
+
+@media screen and (max-width:1100px){
+    .logo img{
+        height:175px;
+    }
+}
+@media screen and (max-width:500px){
+    nav{
+        width:100%;
+        border-radius: 0%;
+    }
+    .logo img{
+        height:0px;
+    }
+    .maincenter{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer img{
+        height:50px;
+        width:fit-content;
+    }
+    .argpba{
+        display: flex;
+        justify-content: space-between;
+    }
+}
